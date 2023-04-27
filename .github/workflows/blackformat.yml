@@ -1,7 +1,7 @@
 name: Black Code Formatter Check
 
 on: 
-  workflow_dispatch
+  workflow_dispatch:
 
 jobs:
   lint:

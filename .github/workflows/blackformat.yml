@@ -2,7 +2,10 @@ name: Black Code Formatter Check
 
 on: 
   workflow_dispatch:
-
+    inputs:
+      name:
+        description: "Who to greet"
+        default: "World"
 jobs:
   lint:
     name: lint
